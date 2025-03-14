@@ -55,3 +55,8 @@ docker tag {local-image-name} us-central1-docker.pkg.dev/{project-name}/{repo-na
 
 docker push us-central1-docker.pkg.dev/{project-name}/{repo-name}/{gcp-image-name}
 ```
+
+## References
+
+* [Google Cloud Run: What, Why and How?](https://medium.com/@midhunbalan.dev/google-cloud-run-what-why-and-how-806e048df811)
+* [How to Dockerize a React App: A Step-by-Step Guide for Developers](https://www.docker.com/blog/how-to-dockerize-react-app/)
