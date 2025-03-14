@@ -26,22 +26,16 @@ A container is a standard unit of software that packages up code and all its dep
 
 Note: You can clone this project and follow the below commands
 
-### To Build The Application
+### Build the Application for Production
 
 ```bash
-docker build -t app .
+docker build -t cloud-run-app .
 ```
 
-### To Run Docker App
+### Run the Production Application
 
 ```bash
-docker run -p 8080:8080 app
-```
-
-### To Run It In M1 or M2 apple chip
-
-```bash
-docker buildx build  --platform linux/amd64  -t app .
+docker run -p 80:80 cloud-run-app
 ```
 
 After successfully building the docker app, open docker desktop to verify whether the app is running.
